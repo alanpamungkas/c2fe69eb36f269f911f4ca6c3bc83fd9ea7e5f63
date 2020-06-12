@@ -287,7 +287,7 @@ class _CartState extends State<Cart> {
                       child: Row(
                         children: [
                           Expanded(
-                            flex: 4,
+                            flex: 5,
                             child: SizedBox(
                               height: 60,
                               child: Column(
@@ -321,7 +321,7 @@ class _CartState extends State<Cart> {
                             ),
                           ),
                           Expanded(
-                            flex: 2,
+                            flex: 3,
                             child: FlatButton(
                               onPressed: () {
                                 Navigator.pop(context);

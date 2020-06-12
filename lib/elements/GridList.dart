@@ -43,7 +43,7 @@ class _GridListState extends State<GridList> {
             return GridView.count(
               padding: EdgeInsets.fromLTRB(0, 0, 0, 100),
               crossAxisCount: 2,
-              childAspectRatio: 0.68,
+              childAspectRatio: 0.6,
               scrollDirection: Axis.vertical,
               children: snapshot.data
                   .map((e) => Card(
