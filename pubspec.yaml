@@ -1,0 +1,29 @@
+name: kulinapreliminarytest
+description: A project by Alan Pamungkas
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  http: ^0.12.1
+  date_picker_timeline: ^1.2.0
+  sqflite:
+  table_calendar: ^2.2.3
+  path_provider: ^0.4.1
+  intl: ^0.16.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
